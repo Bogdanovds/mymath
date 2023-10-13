@@ -2,7 +2,6 @@ package mymath
 
 import (
 	"github.com/Bogdanovds/mymath"
-	"math"
 )
 
 func Sqrt(x float64) float64 {
@@ -10,21 +9,22 @@ func Sqrt(x float64) float64 {
 }
 
 func Ceil(x float64) float64 {
-	return math.Ceil(x)
+	return mymath.Ceil(x)
 }
 
 func Floor(x float64) float64 {
-	return math.Floor(x)
+	return mymath.Floor(x)
 }
 
 func Pow(x float64, y float64) float64 {
-	return math.Pow(x, y)
+	return mymath.Pow(x, y)
 }
 
 func Max(x, y float64) float64 {
-	return math.Max(x, y)
+	return mymath.Max(x, y)
 }
 
 func Min(x, y float64) float64 {
-	return math.Min(x, y)
+	return mymath.Min(x, y)
 }
+
